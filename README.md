@@ -36,3 +36,9 @@ To run in a ios emulator (macOS only)
 Before running your app on iOS, make sure you have CocoaPods installed and initialize the project:<br />
 `cd maverickreactnative/ios`<br />
 `pod install`
+
+#### WebView
+Added a WebView to the native app only ie App.js vs App.native.js. 
+Therefore it's only visible when running on device/emulator, as it's not in the web one 
+( as react-native-web doesnt support it out the box).
+https://github.com/react-native-community/react-native-webview/blob/master/docs/Getting-Started.md
